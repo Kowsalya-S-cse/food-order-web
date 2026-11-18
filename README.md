@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://food-order-web-eight.vercel.app/)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -11,9 +12,23 @@
 
 **A responsive, interactive multi-page food delivery platform developed during my Web Development Internship at PictusCode Pvt Ltd, Ranipet.**
 
-[Features](#-features) · [Demo Pages](#-pages--navigation) · [Tech Stack](#-technologies-used) · [Getting Started](#-getting-started) · [Internship Highlights](#-internship-highlights)
+🌐 **Live Website:** [https://food-order-web-eight.vercel.app/](https://food-order-web-eight.vercel.app/)
+
+[Live Demo](#-live-demo) · [Features](#-features) · [Demo Pages](#-pages--navigation) · [Tech Stack](#-technologies-used) · [Getting Started](#-getting-started) · [Internship Highlights](#-internship-highlights)
 
 </div>
+
+---
+
+## 🌐 Live Demo
+
+Experience the live application deployed on Vercel:
+- **[▶ Open Foodie Delight Live App](https://food-order-web-eight.vercel.app/)**
+
+The live web application supports:
+1. Interactive food menu browsing with real-time category filtering.
+2. Slide-over / modal shopping cart with instant quantity updates and price calculations.
+3. Fully responsive layout tailored for mobile devices, tablets, and desktops.
 
 ---
 
@@ -54,6 +69,7 @@
 - **CSS3:** Custom properties (CSS variables), Flexbox, CSS Grid, media queries, smooth transition animations.
 - **JavaScript (ES6+):** DOM manipulation, event listeners, array methods (`filter`, `map`, `reduce`), state management for cart items, modal controller.
 - **Font Awesome 6:** Vector iconography for cart indicators, ratings, and social links.
+- **Vercel:** Cloud continuous deployment with global edge hosting.
 
 ---
 
@@ -72,6 +88,7 @@ food-order-web/
 ├── contact.html                # Inquiry & contact form
 ├── style.css                   # Global stylesheet & responsive layouts
 ├── script.js                   # Interactive shopping cart & filter logic
+├── vercel.json                 # Vercel static deployment config
 └── README.md                   # Project documentation
 ```
 
